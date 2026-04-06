@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { siteContent } from "@/content/site-content";
 
 export function About() {
@@ -13,10 +14,15 @@ export function About() {
         <div className="mt-16 grid gap-12 lg:grid-cols-[auto_1fr] lg:gap-16">
           <div className="flex justify-center lg:justify-start">
             <div className="relative">
-              <div className="h-64 w-64 rounded-full border-2 border-accent-purple/30 bg-bg-secondary p-1">
-                <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-accent-purple/20 to-accent-blue/20">
-                  <span className="text-6xl font-bold text-accent-purple/60">OJC</span>
-                </div>
+              <div className="h-64 w-64 overflow-hidden rounded-full border-2 border-accent-purple/30 bg-bg-secondary p-1">
+                <Image
+                  src="/profile.jpg"
+                  alt="Onuchukwu Joseph Chimezie"
+                  width={256}
+                  height={256}
+                  className="h-full w-full rounded-full object-cover"
+                  priority
+                />
               </div>
               <div className="absolute -inset-3 -z-10 rounded-full bg-accent-purple/5 blur-xl" />
             </div>
