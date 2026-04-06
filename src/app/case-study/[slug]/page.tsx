@@ -20,7 +20,7 @@ export async function generateMetadata(props: {
   const { slug } = await props.params;
   const cs = siteContent.caseStudies.find((c) => c.slug === slug);
   return {
-    title: cs ? `${cs.title} | Chimezie Onuchukwu` : "Case Study",
+    title: cs ? `${cs.title} | Onuchukwu Joseph Chimezie` : "Case Study",
     description: cs?.summary ?? "",
   };
 }

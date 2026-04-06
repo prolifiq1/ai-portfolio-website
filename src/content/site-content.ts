@@ -1,5 +1,5 @@
 export const siteContent = {
-  name: "Chimezie Onuchukwu",
+  name: "Onuchukwu Joseph Chimezie",
   title: "AI & Data Science Researcher",
   heroTagline: "Building intelligent systems with rigour, curiosity, and care.",
   heroDescription:
@@ -113,9 +113,9 @@ I am currently preparing for doctoral research, with interests in applied AI sys
     },
   ],
 
-  profileStatement: `Chimezie Onuchukwu is a data scientist and AI practitioner whose work spans deep learning, classical machine learning, and applied statistical analysis. His projects demonstrate a consistent emphasis on rigorous evaluation, principled methodology, and the translation of quantitative findings into practical decisions. He approaches technical problems with the curiosity of a researcher and the discipline of an engineer, combining strong computational skills with the judgment to know when a simpler method is the better choice.`,
+  profileStatement: `Onuchukwu Joseph Chimezie is a data scientist and AI practitioner whose work spans deep learning, classical machine learning, and applied statistical analysis. His projects demonstrate a consistent emphasis on rigorous evaluation, principled methodology, and the translation of quantitative findings into practical decisions. He approaches technical problems with the curiosity of a researcher and the discipline of an engineer, combining strong computational skills with the judgment to know when a simpler method is the better choice.`,
 
-  positioningSummary: `Chimezie's work reveals a practitioner who is ready for the demands of doctoral research. Across projects in computer vision, customer behaviour prediction, and demographic policy analysis, he has demonstrated the ability to frame problems precisely, select and compare methods fairly, manage uncertainty honestly, and communicate findings clearly. His technical range is matched by a consistent analytical disposition: he prioritises understanding over performance metrics, documents his reasoning thoroughly, and treats model evaluation as seriously as model building. These are the habits that distinguish effective researchers from effective coders.`,
+  positioningSummary: `His work reveals a practitioner who is ready for the demands of doctoral research. Across projects in computer vision, customer behaviour prediction, and demographic policy analysis, he has demonstrated the ability to frame problems precisely, select and compare methods fairly, manage uncertainty honestly, and communicate findings clearly. His technical range is matched by a consistent analytical disposition: he prioritises understanding over performance metrics, documents his reasoning thoroughly, and treats model evaluation as seriously as model building. These are the habits that distinguish effective researchers from effective coders.`,
 
   strengths: [
     "Systematic experimental methodology with controlled comparisons",

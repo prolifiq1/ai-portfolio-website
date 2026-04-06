@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Chimezie Onuchukwu | AI & Data Science",
+  title: "Onuchukwu Joseph Chimezie | AI & Data Science",
   description:
-    "Portfolio of Chimezie Onuchukwu — AI, machine learning, and data science research. Case studies in deep learning, statistical analysis, and applied intelligent systems.",
+    "Portfolio of Onuchukwu Joseph Chimezie — AI, machine learning, and data science research. Case studies in deep learning, statistical analysis, and applied intelligent systems.",
   keywords: [
     "AI",
     "Data Science",

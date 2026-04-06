@@ -24,7 +24,7 @@ export function Contact() {
               Send an Email
             </a>
             <a
-              href="/Chimezie_Onuchukwu_CV.pdf"
+              href="/Onuchukwu_Joseph_Chimezie_CV.pdf"
               download
               className="inline-flex items-center rounded-lg border border-border px-6 py-3 text-sm font-medium text-foreground transition-colors hover:bg-card-hover"
             >
