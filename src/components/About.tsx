@@ -1,30 +1,34 @@
 import { siteContent } from "@/content/site-content";
 
 export function About() {
+  const paragraphs = siteContent.about.split("\n\n");
+
   return (
-    <section id="about" className="bg-white py-20 sm:py-28">
+    <section id="about" className="relative z-10 py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:gap-20">
-          <div>
-            <p className="mb-3 text-sm font-medium uppercase tracking-widest text-accent">
-              About
-            </p>
-            <h2 className="mb-6 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-              Research-minded practitioner with applied depth
-            </h2>
-            <div className="space-y-1">
-              {siteContent.strengths.map((s, i) => (
-                <div key={i} className="flex items-start gap-3 py-2">
-                  <span className="mt-1.5 h-2 w-2 flex-shrink-0 rounded-full bg-accent" />
-                  <span className="text-sm text-muted">{s}</span>
+        <h2 className="gradient-text mb-4 text-center text-4xl font-bold sm:text-5xl">
+          About Me
+        </h2>
+
+        <div className="mt-16 grid gap-12 lg:grid-cols-[auto_1fr] lg:gap-16">
+          <div className="flex justify-center lg:justify-start">
+            <div className="relative">
+              <div className="h-64 w-64 rounded-full border-2 border-accent-purple/30 bg-bg-secondary p-1">
+                <div className="flex h-full w-full items-center justify-center rounded-full bg-gradient-to-br from-accent-purple/20 to-accent-blue/20">
+                  <span className="text-6xl font-bold text-accent-purple/60">OJC</span>
                 </div>
-              ))}
+              </div>
+              <div className="absolute -inset-3 -z-10 rounded-full bg-accent-purple/5 blur-xl" />
             </div>
           </div>
-          <div className="space-y-5">
-            {siteContent.about.split("\n\n").map((paragraph, i) => (
-              <p key={i} className="text-base leading-relaxed text-foreground/80">
-                {paragraph}
+
+          <div>
+            <h3 className="mb-4 text-xl font-semibold text-text-primary">
+              AI and Data Science Researcher with applied depth
+            </h3>
+            {paragraphs.slice(0, 2).map((p, i) => (
+              <p key={i} className="mb-4 text-base leading-relaxed text-text-secondary">
+                {p}
               </p>
             ))}
           </div>

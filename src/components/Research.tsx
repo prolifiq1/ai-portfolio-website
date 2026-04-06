@@ -2,30 +2,22 @@ import { siteContent } from "@/content/site-content";
 
 export function Research() {
   return (
-    <section id="research" className="bg-background py-20 sm:py-28">
+    <section id="research" className="relative z-10 py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-6">
-        <p className="mb-3 text-sm font-medium uppercase tracking-widest text-accent">
+        <h2 className="gradient-text mb-4 text-center text-4xl font-bold sm:text-5xl">
           Research Interests
-        </p>
-        <h2 className="mb-4 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-          Areas I want to explore further
         </h2>
-        <p className="mb-12 max-w-2xl text-base text-muted">
-          These interests have emerged from the patterns I have noticed across my
-          projects, the questions I kept returning to, and the problems I found
-          most compelling.
+        <p className="mx-auto mb-16 max-w-2xl text-center text-text-secondary">
+          Areas I want to explore further in doctoral research
         </p>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {siteContent.researchInterests.map((interest) => (
-            <div
-              key={interest.title}
-              className="rounded-xl border border-border bg-card p-6"
-            >
-              <h3 className="mb-3 text-base font-semibold text-foreground">
+            <div key={interest.title} className="glass-card p-6">
+              <h3 className="mb-3 text-base font-semibold text-text-primary">
                 {interest.title}
               </h3>
-              <p className="text-sm leading-relaxed text-muted">
+              <p className="text-sm leading-relaxed text-text-secondary">
                 {interest.description}
               </p>
             </div>
