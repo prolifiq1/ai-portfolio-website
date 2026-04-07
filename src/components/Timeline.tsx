@@ -2,7 +2,7 @@ const experiences = [
   {
     role: "MSc Data Science Student",
     org: "University of Hull",
-    period: "2024 - 2025",
+    period: "2025 - 2026",
     description:
       "Completed rigorous coursework in AI, machine learning, statistical analysis, and data visualisation. Built complete ML pipelines for computer vision, customer behaviour prediction, and demographic analysis.",
     tags: ["Python", "TensorFlow", "scikit-learn", "Pandas"],
